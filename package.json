@@ -5,6 +5,10 @@
         "build": "npm i && cd src && npm i && cd ../ && webpack",
         "release": "semantic-release || true"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/1tryer/test.git"
+    },
     "dependencies": {
         "@babel/core": "^7.16.0",
         "@babel/plugin-proposal-class-properties": "^7.16.0",
@@ -17,6 +21,7 @@
         "@babel/preset-typescript": "^7.16.0",
         "@babel/runtime": "^7.16.3",
         "@master/normal.css": "^1.0.0-alpha.4",
+        "@semantic-release/exec": "^6.0.2",
         "@types/node": "^16.11.11",
         "autoprefixer": "^10.4.0",
         "babel-loader": "^8.2.3",
